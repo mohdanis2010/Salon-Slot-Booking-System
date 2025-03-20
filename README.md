@@ -14,7 +14,7 @@ This is a **full-stack** salon booking system built with **React 19 + TypeScript
 - ⚡ **Fast & Lightweight**: Built with **Vite** for an ultra-fast development experience.
 - 📊 **State Management**: Uses **React Context API** for global state management.
 - ✅ **Tested & Reliable**: Includes unit tests with **Jest & React Testing Library**.
-- 🎨 **Styled with Sass**: Modern styling with maintainable and scalable stylesheets.
+
 
 ---
 
