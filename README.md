@@ -27,7 +27,7 @@ Make sure you have **Node.js (>=20.19.0)** installed on your machine.
 ```sh
 # Clone the repository
 git clone https://github.com/your-username/salon-booking.git
-cd salon-booking/client
+cd client
 
 # Install dependencies
 npm install
