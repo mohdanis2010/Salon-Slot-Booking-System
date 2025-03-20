@@ -1,5 +1,8 @@
 # 💇 Salon Slot Booking System
 
+![image](https://github.com/user-attachments/assets/569f3057-535c-4b5f-9cca-b45e792a5319)
+
+
 This is a **full-stack** salon booking system built with **React 19 + TypeScript** (frontend) and **Node.js + Express** (backend). It features **voice search**, slot booking, and an integrated payment system.
 
 ---
