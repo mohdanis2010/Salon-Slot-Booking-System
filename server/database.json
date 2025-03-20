@@ -1,0 +1,15 @@
+{
+    "slots": [
+      { "id": 1, "stylist": "John Doe", "service": "Haircut", "date": "2023-12-01", "time": "10:00 AM" },
+      { "id": 2, "stylist": "Jane Smith", "service": "Colouring", "date": "2023-12-01", "time": "11:00 AM" },
+      { "id": 3, "stylist": "Emily Davis", "service": "Styling", "date": "2023-12-02", "time": "12:00 PM" },
+      { "id": 4, "stylist": "Michael Brown", "service": "Beard Trim", "date": "2023-12-02", "time": "1:00 PM" },
+      { "id": 5, "stylist": "Sarah Wilson", "service": "Manicure", "date": "2023-12-03", "time": "2:00 PM" },
+      { "id": 6, "stylist": "Jane Smith", "service": "Hair Treatment", "date": "2023-12-03", "time": "3:00 PM" },
+      { "id": 7, "stylist": "Chris Johnson", "service": "Shaving", "date": "2023-12-04", "time": "4:00 PM" },
+      { "id": 8, "stylist": "Emma Martinez", "service": "Pedicure", "date": "2023-12-04", "time": "5:00 PM" },
+      { "id": 9, "stylist": "John Doe", "service": "Haircut", "date": "2023-12-05", "time": "6:00 PM" },
+      { "id": 10, "stylist": "Jane Smith", "service": "Colouring", "date": "2023-12-06", "time": "7:00 PM" }
+    ]
+  }
+  

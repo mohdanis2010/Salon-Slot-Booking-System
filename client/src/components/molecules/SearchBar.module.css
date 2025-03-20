@@ -1,0 +1,24 @@
+/* src/components/molecules/SearchBar.module.css */
+.searchBar {
+  display: flex;
+  align-items: center;
+  gap: 12px; /* Space between the input wrapper and the search button */
+}
+
+.inputWrapper {
+  position: relative;
+  width: 100%;
+  max-width: 400px; /* Adjust as needed */
+}
+
+.micIcon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.searchIcon {
+  margin-right: 8px; /* Space between the search icon and the text */
+}

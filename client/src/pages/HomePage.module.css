@@ -1,0 +1,35 @@
+/* src/pages/HomePage.module.css */
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background: linear-gradient(135deg, #ffffff, #f8f9fa); /* Subtle gradient background */
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    font-family: 'Inter', sans-serif; /* Modern font */
+  }
+  
+  .title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1a73e8; /* Blue color for the title */
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .sectionTitle {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1a73e8;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .error {
+    color: #ff4d4f;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+  }

@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f8f9fa;
+  background-image: url('https://img.freepik.com/free-photo/abstract-blur-coffee-shop-restaurant_1203-8740.jpg?t=st=1742511562~exp=1742515162~hmac=3129051dec648a762e66bd9af269419a877a52d095d98d3bf71c432348a6c926&amp;w=360%20360w');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 20px;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-attachment: fixed;
+  }
+
+  .container {
+    margin: 0;
+  }
+}

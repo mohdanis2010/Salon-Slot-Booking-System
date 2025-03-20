@@ -1,0 +1,48 @@
+/* src/components/molecules/PaymentForm.module.css */
+.paymentForm {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.input {
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.input:focus {
+  border-color: #1a73e8;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(26, 115, 232, 0.2);
+}
+
+.payButton {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the text and icon */
+  background: linear-gradient(90deg, #dc3545, #e4606d); /* Red gradient */
+  color: white;
+  box-shadow: 0 2px 8px rgba(220, 53, 69, 0.3);
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: transform 0.2s ease, box-shadow 0.3s ease, opacity 0.3s ease;
+}
+
+.payButton:disabled {
+  opacity: 0.5; /* Dim the button when disabled */
+  cursor: not-allowed;
+}
+
+.payButton:not(:disabled):hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(220, 53, 69, 0.5);
+}
+
+.creditIcon {
+  margin-right: 8px;
+}

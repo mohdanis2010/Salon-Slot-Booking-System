@@ -1,0 +1,33 @@
+/* src/components/organisms/PaymentSection.module.css */
+.paymentSection {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.paymentSection h2 {
+  font-size: 1.8rem;
+  color: #007bff;
+  margin-bottom: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.message {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.1rem;
+  padding: 10px; /* Add padding for better visibility */
+  min-height: 20px; /* Reserve space for the message */
+  border: 1px solid #ccc; /* Add border for debugging */
+  background-color: #f9f9f9; /* Light background for contrast */
+}
+
+.success {
+  color: #28a745;
+}
+
+.error {
+  color: #dc3545;
+}
