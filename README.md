@@ -38,7 +38,7 @@ npm run dev
 
 ### 🖥️ Backend Setup (Server)
 ```sh
-cd ../server
+cd server
 
 # Install dependencies
 npm install
@@ -51,7 +51,7 @@ node index.js
 
 ## 📌 Usage
 1. **Visit the app** in your browser (default: `http://localhost:5173`).
-2. **Select a salon service** and pick a time slot.
+2. **Search by stylist(Jane), service(Haircut)** and pick a time slot.
 3. **Use voice search** to find available slots.
 4. **Proceed to payment** to confirm your booking.
 
